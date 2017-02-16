@@ -15,7 +15,9 @@ Il y a trois dossiers :
 * */data* : pour produire quelques statistiques avec les données;
 * */PDFcrawl* : pour récupérer, dans un seul dossier, toutes les décisions du CC en .pdf
 
-## Explications
+## /scraping
+
+Pour récupérer les données j'utilise le framework python [Scrapy] (https://scrapy.org/)
 
 
 
