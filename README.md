@@ -24,7 +24,6 @@ Pour récupérer toutes les données pertinentes, les requêtes sont faites sur 
 
 Les données récoltées (.csv) se présentent sous la forme tabulaire suivante:
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+| ecli_dc                    | type_dc | membres                                                                                                               | dd | yy   | mm | sol_dc        | objet_dc                                   | num_dc                                                                                                           | link_dc     |   |
+|----------------------------|---------|-----------------------------------------------------------------------------------------------------------------------|----|------|----|---------------|--------------------------------------------|------------------------------------------------------------------------------------------------------------------|-------------|---|
+| ECLI:FR:CC:2017:2017.266.L | L       | Laurent FABIUS,Claire BAZY MALAURIE,Nicole BELLOUBET,Jean-Jacques HYEST,Lionel JOSPIN,Corinne LUQUIENS,Michel PINAULT | 31 | 2017 | 1  | Règlementaire | JORF n°0029 du 3 février 2017 texte n° 107 | Nature juridique de certaines dispositions de l'article 5 de la loi du 2 juillet 2004 relative à l'octroi de mer | http:// ... |   |
