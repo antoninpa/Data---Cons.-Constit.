@@ -8,16 +8,18 @@ Copyright (c) 2017 Antonin Paillet
 
 Les seules données statistiques sur le Conseil Constitutionnel sont publiées dans les [Nouveaux Cahiers du Conseil Constitutionnel] 
 (http://www.conseil-constitutionnel.fr/conseil-constitutionnel/francais/nouveaux-cahiers-du-conseil/les-nouveaux-cahiers-du-conseil-constitutionnel.5069.html),
-dont la lecture est payante. Par curiosité autant que par jeu j'ai donc décidé de collecter les données (sous forme tabulaire mais également les documents PDF en ligne) et de voir s'il est possible d'en tirer quelques enseignements. 
+dont la lecture est payante. Par curiosité autant que par jeu j'ai donc décidé de collecter les données et de voir s'il est possible d'en tirer quelques enseignements. 
 
 Il y a trois dossiers : 
 * */scraping* : pour récupérer les données sur le site du CC
 * */data* : pour produire quelques statistiques avec les données;
-* */PDFcrawl* : pour récupérer, dans un seul dossier, toutes les décisions du CC en .pdf
+* */PDFcrawl* : en bonus, pour récupérer toutes les décisions en .pdf dans un seul dossier
 
 ## /scraping
 
-Pour récupérer les données j'utilise le framework python [Scrapy] (https://scrapy.org/)
+Pour récupérer les données j'utilise le framework python [Scrapy] (https://scrapy.org/).
+
+À partir d'une page du CC, les décisions sont classées de la manière suivante : */liste_des_années/décisions_par_année/décision/*
 
 
 
