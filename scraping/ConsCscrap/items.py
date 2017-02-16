@@ -1,10 +1,5 @@
 from scrapy.item import Item, Field
 
-class ConsContItem(Item):
-    files = Field()
-    file_urls = Field()
-    text = Field()
-
 class listCCitem(Item):
     dd = Field()
     mm = Field()
