@@ -22,3 +22,9 @@ Pour récupérer les données j'utilise le framework python [Scrapy] (https://sc
 À partir d'une page du CC, les décisions sont classées de la manière suivante : */liste_des_années/décisions_par_année/décision/*. 
 Pour récupérer toutes les données pertinentes, les requêtes sont faites sur les 3 niveaux (avec une conservation des données entre le niveau 2 et 3).
 
+Les données récoltées (.csv) se présentent sous la forme tabulaire suivante:
+
+First Header | Second Header
+------------ | -------------
+Content from cell 1 | Content from cell 2
+Content in the first column | Content in the second column
